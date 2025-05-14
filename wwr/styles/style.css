@@ -1,0 +1,101 @@
+/* Layout and Centering */
+#content {
+    max-width: 1600px;
+    margin: 0 auto;
+  }
+  
+  /* Text Alignment */
+  nav a,
+  #hero-msg h1,
+  #hero-msg h4,
+  .button-box,
+  main section {
+    text-align: center;
+  }
+  
+  /* Background Colors */
+  body {
+    background-color: #fcfbfb;
+  }
+  
+  header {
+    background-color: rgba(20, 30, 13, 0.7);
+  }
+  
+  nav a:hover {
+    background-color: black;
+  }
+  
+  .book,
+  .join {
+    background-color: #c8b26b;
+  }
+  
+  .book:hover,
+  .join:hover {
+    background-color: #bfa14d;
+  }
+  
+  #background {
+    height: 725px;
+    background-color: #ddd;
+  }
+  
+  .msg {
+    background-color: #fff;
+  }
+  
+  footer {
+    background-color: #222;
+  }
+  
+  /* Text Colors */
+  nav a {
+    color: #fcfbfb;
+  }
+  
+  nav a:hover {
+    color: #d9c2a3;
+  }
+  
+  .home-title,
+  h4,
+  .msg h2,
+  .msg p,
+  footer,
+  footer a {
+    color: #ffffff;
+  }
+  
+  footer a:hover {
+    color: #d9c2a3;
+  }
+  
+  /* Image Widths */
+  .logo,
+  .icon {
+    width: 80px;
+  }
+  
+  #hero-img {
+    width: 100%;
+  }
+  
+  /* Remove Underlines */
+  nav a,
+  .book,
+  .join,
+  footer a {
+    text-align: center;
+    color: #fcfbfb;
+    text-decoration: none;
+  }
+  
+  /* Footer Paragraph Styling */
+  footer p {
+    font-size: 1.2em;
+  }
+  
+  footer p a:hover {
+    text-decoration: underline;
+  }
