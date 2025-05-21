@@ -1,3 +1,6 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway&family=Rock+Salt&display=swap');
+
+
 /* Layout and Centering */
 #content {
     max-width: 1600px;
@@ -16,6 +19,10 @@
   /* Background Colors */
   body {
     background-color: #B3E5FC;
+    font-family: 'Raleway', Arial, sans-serif;
+    font-size: 22px;
+    margin: 0;
+    padding: 0;
   }
   
   header {
@@ -43,27 +50,64 @@
   
   .msg {
     background-color: #fff;
+    padding: 35px;
+    line-height: 1.5em;
   }
+
+  .msg h2 {
+    margin: 0;
+    font-family: 'Rock Salt', 'Bradley Hand', sans-serif;
+    font-size: 2em;
+    color: #0D3B66;
+}
+
+.msg p {
+    padding-bottom: 15px;
+    font-size: 0.8em;
+    color: #0D3B66;
+}
   
   footer {
     background-color: #0D3B66;
+    padding: 25px 50px;
+    color: #0D3B66;
+    margin-top: 200px;
   }
+
+  footer p {
+    font-size: 1.2em;
+}
+
+footer a {
+    color: #0D3B66;
+    text-decoration: none;
+}
+
+footer a:hover {
+    color: #3D9BE9;
+    text-decoration: underline;
+}
+
+footer .social img {
+    padding-top: 15px;
+}
   
   /* Text Colors */
   nav a {
     color: #fcfbfb;
+    text-decoration: none;
+    padding: 35px;
+    text-align: center;
   }
   
   nav a:hover {
     color: #B3E5FC;
   }
   
-  .home-title,
-  h4,
-  .msg h2,
-  .msg p,
-  footer,
-  footer a {
+  .home-title {
+    font-family: 'Rock Salt', 'Bradley Hand', sans-serif;
+    font-size: 2em;
+    margin-top: 10px;
     color: #0D3B66;
   }
   
@@ -76,6 +120,10 @@
   .icon {
     width: 80px;
   }
+
+  .icon {
+    padding-top: 10px;
+}
   
   #hero-img {
     width: 100%;
@@ -87,12 +135,13 @@
     color: #fcfbfb;
     text-decoration: none;
   }
+
+  /* Borders and Box-sizing */
+.card-img {
+  border: 10px solid #7AC142;
+}
+
+main section img {
+  box-sizing: border-box;
+}
   
-  /* Footer Paragraph Styling */
-  footer p {
-    font-size: 1.2em;
-  }
-  
-  footer p a:hover {
-    text-decoration: underline;
-  }
