@@ -28,6 +28,7 @@
   
   header {
     background-color: #0D3B66;
+    padding: 40px 0;
   }
   
   nav a:hover {
@@ -55,6 +56,7 @@
   #background {
     height: 725px;
     background-color: #7AC142;
+    padding: 40px 0;
   }
   
   .msg {
@@ -153,5 +155,10 @@ footer .social img {
 
 main section img {
   box-sizing: border-box;
+}
+
+main section {
+  padding-top: 80px;
+  padding-bottom: 40px;
 }
   
