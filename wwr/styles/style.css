@@ -68,6 +68,7 @@
   
   header {
     position: absolute;
+    width: 100%;
     display: grid;
     grid-template-columns: 150px auto;
     background-color: rgba(13, 59, 102, 0.8);
