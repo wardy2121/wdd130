@@ -98,6 +98,8 @@
     grid-column: 2 / 3;
     grid-row: 1 / 2;
     margin-top: 100px;
+    z-index: 2;
+    position: relative;
   }
 
   #hero-msg h4 {
