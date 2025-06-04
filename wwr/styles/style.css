@@ -67,11 +67,11 @@
   }
   
   header {
+    position: absolute;
     display: grid;
     grid-template-columns: 150px auto;
     background-color: rgba(13, 59, 102, 0.8);
     padding: 0px 0px;
-    position: relative;
     z-index: 10;
   }
 
