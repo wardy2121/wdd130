@@ -71,6 +71,7 @@
     grid-template-columns: 150px auto;
     background-color: rgba(13, 59, 102, 0.8);
     padding: 0px 0px;
+    z-index: 1;
   }
 
   nav {
