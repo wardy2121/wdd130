@@ -381,5 +381,15 @@
     footer {
         margin-top: 25px;
     }
+
+      .rivers-grid {
+    display: block;
+    padding: 2rem 1rem;
+  }
+  
+  .river-intro {
+    width: 100%;
+    box-sizing: border-box;
+  }
 }
 
