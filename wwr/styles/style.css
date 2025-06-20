@@ -252,7 +252,7 @@
     display: grid;
     grid-template-columns: 1fr;
     gap: 2rem;
-    padding: 2rem;
+    padding: 4rem;
     background: linear-gradient(to bottom, #e0f7fa, #ffffff);
     color: #003b49;
 }
@@ -315,8 +315,8 @@
 }
 
 .river-info-item img {
-  width: 150px;
-  height: 100px;
+  width: 400px;
+  height: 400px;
   object-fit: cover;
   border-radius: 10px;
   flex-shrink: 0;
