@@ -43,25 +43,63 @@ a:hover {
   justify-content: space-between;
   align-items: center;
   padding: 1rem 2rem;
+  border-bottom: 2px solid var(--color-accent1);
+}
+
+/* Logo container: logo image + site title text side by side */
+.logo {
+  display: flex;
+  align-items: center;
 }
 
 .logo img {
   max-height: 60px;
+  display: block;
 }
 
+/* Site title and subtitle next to logo */
+.site-header .site-title-container {
+  margin-left: 1rem;
+  color: var(--color-accent1);
+  font-family: var(--font-body);
+}
+
+.site-header .site-title-container h1 {
+  margin: 0;
+  font-family: var(--font-heading);
+  font-size: 1.8rem;
+  color: var(--color-accent1);
+}
+
+.site-header .site-title-container p {
+  margin: 0;
+  font-weight: 300;
+  font-size: 0.9rem;
+  color: var(--color-accent2);
+}
+
+/* Navigation bar styles */
 .main-nav ul {
   list-style: none;
   display: flex;
-  gap: 1.5rem;
+  gap: 2rem;
+  margin: 0;
+  padding: 0;
 }
 
 .main-nav a {
-  font-weight: 500;
-  color: #ffffff;
+  font-weight: 600;
+  color: var(--color-accent1);
+  text-decoration: none;
+  font-family: var(--font-body);
+  font-size: 1rem;
+  transition: color 0.3s ease;
 }
 
-.main-nav a:hover {
-  color: var(--color-accent1);
+.main-nav a:hover,
+.main-nav a:focus {
+  color: var(--color-accent2);
+  outline: none;
 }
 
 /* Hero Section */
@@ -200,6 +238,11 @@ a:hover {
     font-size: 2rem;
   }
   .main-nav ul {
+    gap: 1rem;
+  }
+  .site-header {
+    flex-direction: column;
+    align-items: flex-start;
     gap: 1rem;
   }
 }
