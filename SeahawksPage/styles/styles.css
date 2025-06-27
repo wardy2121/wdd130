@@ -74,7 +74,7 @@ a:hover {
   margin: 0;
   font-weight: 400;
   font-size: 1rem;
-  color: var(--color-primary); /* Deep navy for contrast */
+  color: var(--color-accent1); /* Deep navy for contrast */
 }
 
 /* Navigation bar styles */
