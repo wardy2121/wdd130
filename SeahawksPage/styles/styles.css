@@ -66,15 +66,15 @@ a:hover {
 .site-header .site-title-container h1 {
   margin: 0;
   font-family: var(--font-heading);
-  font-size: 1.8rem;
-  color: var(--color-accent1); /* Green for visibility */
+  font-size: 2.2rem;
+  color: var(--color-accent1); /* Bright lime green */
 }
 
 .site-header .site-title-container p {
   margin: 0;
-  font-weight: 300;
-  font-size: 0.9rem;
-  color: var(--color-accent1); /* Also green */
+  font-weight: 400;
+  font-size: 1rem;
+  color: var(--color-primary); /* Deep navy for contrast */
 }
 
 /* Navigation bar styles */
