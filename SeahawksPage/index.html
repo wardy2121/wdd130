@@ -9,17 +9,25 @@
 </head>
 <body>
   <!-- Header with site title and author info -->
-  <header class="site-header" style="text-align:center; padding: 1rem 0;">
-    <h1>HAWKS HUB</h1>
-    <p>Tyler Ward • WDD 130-Section</p>
-  </header>
+<header class="site-header" style="display: flex; align-items: center; justify-content: space-between; padding: 1rem 2rem; border-bottom: 2px solid var(--color-primary);"> 
+  <!-- Left side: Logo and site title -->
+  <div style="display: flex; align-items: center;">
+    <div class="logo" style="flex-shrink: 0;">
+      <img src="images/logo.jpeg" alt="Hawks Hub Logo" style="height: 60px;">
+    </div>
+    <div style="margin-left: 1rem; color: var(--color-primary);">
+      <h1 style="margin: 0; font-size: 1.5rem;">HAWKS HUB</h1>
+      <p style="margin: 0;">Tyler Ward • WDD 130-Section</p>
+    </div>
+  </div>
 
-  <!-- Navigation bar -->
-  <nav class="main-nav" style="border-top: 2px solid var(--color-primary); border-bottom: 2px solid var(--color-primary); padding: 0.5rem 0; text-align:center;">
-    <a href="index.html" class="nav-link active" style="margin: 0 1.5rem;">HOME</a>
-    <a href="schedule.html" class="nav-link" style="margin: 0 1.5rem;">SCHEDULE PAGE</a>
-    <a href="players.html" class="nav-link" style="margin: 0 1.5rem;">PLAYERS PAGE</a>
+  <!-- Right side: Navigation menu -->
+  <nav class="main-nav">
+    <a href="index.html" class="nav-link" style="margin: 0 1rem; color: var(--color-primary); font-weight: 500; text-decoration: none;">HOME</a>
+    <a href="schedule.html" class="nav-link" style="margin: 0 1rem; color: var(--color-primary); font-weight: 500; text-decoration: none;">SCHEDULE PAGE</a>
+    <a href="players.html" class="nav-link" style="margin: 0 1rem; color: var(--color-primary); font-weight: 500; text-decoration: none;">PLAYERS PAGE</a>
   </nav>
+</header>
 
   <main style="padding: 1rem 2rem; max-width: 900px; margin: 0 auto;">
 
@@ -43,13 +51,6 @@
     <section class="images-row" style="display: flex; gap: 1rem; justify-content: center; margin-bottom: 2rem;">
       <img src="images/home12.jpg" alt="Twelfth Man Flag waving proudly" style="width: 48%; border-radius: 8px;" />
       <img src="images/homestadium.jpg" alt="Fans cheering inside the stadium" style="width: 48%; border-radius: 8px;" />
-    </section>
-
-    <!-- Latest Seahawks News box -->
-    <section class="news-box" style="border: 2px solid var(--color-primary); padding: 1rem; margin-bottom: 2rem;">
-      <h2 style="text-align:center; margin-bottom: 0.5rem;">Latest Seahawks News</h2>
-      <p style="text-align:center; margin-bottom: 0.5rem;">Injury updates | Draft rumors | Game recaps</p>
-      <p style="text-align:center;">Stay in the loop with current news and team changes.</p>
     </section>
 
   </main>
