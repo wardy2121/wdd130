@@ -6,6 +6,7 @@
   --color-secondary: #4F7942; /* Seahawks Green (background) */
   --color-accent1: #69BE28;  /* Bright Lime Green */
   --color-accent2: #A5ACAF;  /* Light Gray/Silver */
+  --color-body-text: #003366; /* Darker Blue for body text */
 
   --font-heading: 'Anton', sans-serif;
   --font-body: 'Roboto', sans-serif;
@@ -20,7 +21,7 @@
 
 body {
   font-family: var(--font-body);
-  color: var(--color-accent2);
+  color: var(--color-body-text); /* Blue body text */
   background: #ffffff;
   line-height: 1.6;
 }
@@ -38,7 +39,6 @@ a:hover {
 /* Header */
 .site-header {
   background: var(--color-primary);
-  color: #ffffff;
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -53,14 +53,13 @@ a:hover {
 }
 
 .logo img {
-  max-height: 60px;
+  max-height: 85px; /* Increased logo size */
   display: block;
 }
 
 /* Site title and subtitle next to logo */
 .site-header .site-title-container {
   margin-left: 1rem;
-  color: var(--color-accent1);
   font-family: var(--font-body);
 }
 
@@ -68,14 +67,14 @@ a:hover {
   margin: 0;
   font-family: var(--font-heading);
   font-size: 1.8rem;
-  color: var(--color-accent1);
+  color: var(--color-accent1); /* Green for visibility */
 }
 
 .site-header .site-title-container p {
   margin: 0;
   font-weight: 300;
   font-size: 0.9rem;
-  color: var(--color-accent2);
+  color: var(--color-accent1); /* Also green */
 }
 
 /* Navigation bar styles */
@@ -89,7 +88,7 @@ a:hover {
 
 .main-nav a {
   font-weight: 600;
-  color: var(--color-accent1);
+  color: var(--color-accent1); /* Green for header nav links */
   text-decoration: none;
   font-family: var(--font-body);
   font-size: 1rem;
@@ -234,12 +233,15 @@ a:hover {
   .hero img {
     height: 40vh;
   }
+
   .hero-text h1 {
     font-size: 2rem;
   }
+
   .main-nav ul {
     gap: 1rem;
   }
+
   .site-header {
     flex-direction: column;
     align-items: flex-start;
