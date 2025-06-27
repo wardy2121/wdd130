@@ -1,75 +1,70 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Seahawks Central</title>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Hawks Hub</title>
   <!-- Google Fonts -->
-  <link href="https://fonts.googleapis.com/css2?family=Anton&family=Roboto:wght@300;400;500&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Anton&family=Roboto:wght@300;400;500&display=swap" rel="stylesheet" />
   <!-- External Stylesheet -->
-  <link rel="stylesheet" href="styles/styles.css">
+  <link rel="stylesheet" href="styles/styles.css" />
 </head>
 <body>
-  <!-- Header & Navigation -->
+  <!-- Header with site title and author info -->
   <header class="site-header">
-    <div class="logo">
-      <!-- Placeholder logo image -->
-      <img src="images/logo.jpeg" alt="Cartoonish Seahawks logo with a football behind the word 'Seahawks'">
-    </div>
-    <nav class="main-nav">
-      <ul>
-        <li><a href="#">Home</a></li>
-        <li><a href="schedule.html">Schedule</a></li>
-        <li><a href="players.html">Players</a></li>
-      </ul>
-    </nav>
+    <h1>HAWKS HUB</h1>
+    <p class="author-info">Tyler Ward • WDD 130-Section</p>
   </header>
 
-  <!-- Hero Section -->
-  <section class="hero">
-    <img src="image2.jpg" alt="Panoramic photo of Lumen Field packed with Seahawks fans under night lights">
-    <div class="hero-text">
-      <h1>Welcome to Seahawks Central</h1>
-      <p>Your home for all things Seattle Seahawks — news, schedules, and player insights.</p>
-    </div>
-  </section>
+  <!-- Navigation Bar -->
+  <nav class="main-nav" aria-label="Primary navigation">
+    <ul>
+      <li><a href="index.html" class="active">Home</a></li>
+      <li><a href="schedule.html">Schedule Page</a></li>
+      <li><a href="players.html">Players Page</a></li>
+    </ul>
+  </nav>
 
-  <!-- Latest News Section -->
-  <section class="news">
-    <h2>Latest News</h2>
-    <div class="news-grid">
-      <article class="news-item">
-        <img src="image3.jpg" alt="Seattle Seahawks players celebrating a touchdown in the end zone">
-        <h3>Headline Placeholder</h3>
-        <p>Brief description of the article. Stay tuned for updates.</p>
-        <a href="#">Read more</a>
-      </article>
-      <article class="news-item">
-        <img src="image4.jpg" alt="Coach addressing the team during practice on the field">
-        <h3>Headline Placeholder</h3>
-        <p>Brief description of the article. Stay tuned for updates.</p>
-        <a href="#">Read more</a>
-      </article>
-      <article class="news-item">
-        <img src="image5.jpg" alt="Fans waving Seahawks flags and cheering in the stadium stands">
-        <h3>Headline Placeholder</h3>
-        <p>Brief description of the article. Stay tuned for updates.</p>
-        <a href="#">Read more</a>
-      </article>
-    </div>
-  </section>
+  <!-- Main Content -->
+  <main>
+    <!-- Welcome Section -->
+    <section class="welcome">
+      <h2>Welcome to Seahawks Hub</h2>
+      <p>Your go-to source for Seahawks updates, community, and more.</p>
+      <ul>
+        <li>News, updates, and highlights delivered to fans</li>
+        <li>Join the community &amp; be part of game day</li>
+      </ul>
+    </section>
 
-  <!-- Call‑To‑Action Section -->
-  <section class="call-to-action">
-    <h2>Ready for Game Day?</h2>
-    <p>Check out the full schedule to never miss a kickoff.</p>
-    <a class="btn" href="schedule.html">View Schedule</a>
-  </section>
+    <!-- Images Section -->
+    <section class="home-images">
+      <img src="images/home12.jpg" alt="Twelfth Man Flag waving proudly" />
+      <img src="images/homestadium.jpg" alt="Fans cheering inside the stadium" />
+    </section>
+
+    <!-- Latest Seahawks News Section -->
+    <section class="latest-news">
+      <h2>Latest Seahawks News</h2>
+      <p>📰 Injury updates | 📈 Draft rumors | 🏈 Game recaps</p>
+      <p>Stay in the loop with current news and team changes.</p>
+    </section>
+
+    <!-- Seahawks Fan Community Hub Section -->
+    <section class="fan-community">
+      <h2>Seahawks Fan Community Hub</h2>
+      <ul>
+        <li>Share predictions</li>
+        <li>Participate in polls</li>
+        <li>Submit fan photos</li>
+        <li>Post your Seahawks stories</li>
+      </ul>
+    </section>
+  </main>
 
   <!-- Footer -->
   <footer class="site-footer">
-    <p>&copy; 2025 Seahawks Central. Not affiliated with the NFL or the Seattle Seahawks organization.</p>
-    <p><a href="site-plan.html">View Site Plan</a></p>
+    <p>&copy; 2025 Hawks Hub • <a href="contact.html">Contact</a> • <a href="terms.html">Terms</a></p>
   </footer>
 </body>
 </html>
