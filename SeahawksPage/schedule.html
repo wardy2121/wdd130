@@ -3,45 +3,49 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <title>Hawks Hub - Schedule Page</title>
+  <title>Schedule - Hawks Hub</title>
   <link href="https://fonts.googleapis.com/css2?family=Anton&family=Roboto:wght@300;400;500&display=swap" rel="stylesheet" />
   <link rel="stylesheet" href="styles/styles.css" />
 </head>
 <body>
-  <!-- Header with site title and author info -->
-  <header class="site-header" style="display: flex; align-items: center; justify-content: space-between; padding: 1rem 2rem; border-bottom: 2px solid var(--color-primary);"> 
-    <!-- Left side: Logo and site title -->
-    <div style="display: flex; align-items: center;">
-      <div class="logo" style="flex-shrink: 0;">
-        <img src="images/logo.jpeg" alt="Hawks Hub Logo" style="height: 60px;">
-      </div>
-      <div style="margin-left: 1rem; color: var(--color-primary);">
-        <h1 style="margin: 0; font-size: 1.5rem;">HAWKS HUB</h1>
-        <p style="margin: 0;">Tyler Ward • WDD 130-Section</p>
-      </div>
-    </div>
 
-    <!-- Right side: Navigation menu -->
+  <!-- Header -->
+  <header class="site-header">
+    <div class="logo">
+      <img src="images/logo.jpeg" alt="Hawks Hub Logo" />
+    </div>
+    <div class="site-title-container">
+      <h1>HAWKS HUB</h1>
+      <p>Tyler Ward • WDD 130-Section</p>
+    </div>
     <nav class="main-nav">
-      <a href="index.html" class="nav-link" style="margin: 0 1rem; color: var(--color-primary); font-weight: 500; text-decoration: none;">HOME</a>
-      <a href="schedule.html" class="nav-link" style="margin: 0 1rem; color: var(--color-primary); font-weight: 500; text-decoration: none;">SCHEDULE PAGE</a>
-      <a href="players.html" class="nav-link" style="margin: 0 1rem; color: var(--color-primary); font-weight: 500; text-decoration: none;">PLAYERS PAGE</a>
+      <ul>
+        <li><a href="index.html">HOME</a></li>
+        <li><a href="schedule.html">SCHEDULE PAGE</a></li>
+        <li><a href="players.html">PLAYERS PAGE</a></li>
+      </ul>
     </nav>
   </header>
 
+  <!-- Main Content -->
   <main style="padding: 1rem 2rem; max-width: 900px; margin: 0 auto;">
-    
-    <section class="content-box" style="border: 2px solid var(--color-primary); padding: 1rem; margin-bottom: 2rem;">
-      <h2 style="text-align:center; margin-bottom: 0.5rem;">Season Schedule Overview</h2>
-      <p>Don't miss a game with our full Seahawks season schedule. From preseason games through the playoffs, find detailed listings of dates, kickoff times, and visiting teams. The schedule is updated regularly to include any weather or league-mandated changes, so fans have access to the very latest information at all times.</p>
 
-      <h3 style="text-align:center; margin-bottom: 0.5rem;">Game Day Essentials</h3>
-      <p>Planning to watch or attend a game? Have all the information you need — stadium location, broadcast networks, ticket information, and parking tips. For home viewers, we select official streaming links and radio broadcasts, so you won't miss an instant of Seahawks action.</p>
+    <section class="content-box" style="border: 2px solid var(--color-primary); padding: 1rem; margin-bottom: 2rem;">
+      <h2 style="text-align: center; margin-bottom: 0.5rem;">Season Schedule Overview</h2>
+      <p style="text-align: center;">
+        Don't miss a game with our full Seahawks season schedule. From preseason games through the playoffs, find detailed listings of dates, kickoff times, and visiting teams. The schedule is updated regularly to include any weather or league-mandated changes, so fans have access to the very latest information at all times.
+      </p>
+      <h3 style="margin-top: 1.5rem; text-align: center;">Game Day Essentials</h3>
+      <p style="text-align: center;">
+        Planning to watch or attend a game? Have all the information you need — stadium location, broadcast networks, ticket information, and parking tips. For home viewers, we select official streaming links and radio broadcasts, so you won't miss an instant of Seahawks action.
+      </p>
     </section>
 
     <section class="content-box" style="border: 2px solid var(--color-primary); padding: 1rem; margin-bottom: 2rem;">
-      <h2 style="text-align:center; margin-bottom: 0.5rem;">Upcoming Season Schedule</h2>
-      <p style="text-align:center;">This will be the schedule of the upcoming season and is not yet ready to be created or posted.</p>
+      <h2 style="text-align: center; margin-bottom: 0.5rem;">Upcoming Season Schedule</h2>
+      <p style="text-align: center; font-style: italic; color: var(--color-primary);">
+        This schedule is not yet ready to be created or posted. Please check back later for updates.
+      </p>
     </section>
 
     <section class="images-row" style="display: flex; gap: 1rem; justify-content: center; margin-bottom: 2rem;">
@@ -55,5 +59,6 @@
   <footer class="site-footer" style="text-align:center; padding: 1rem 0; border-top: 1px solid var(--color-primary); margin-top: 2rem;">
     <p>© 2025 Hawks Hub • <a href="site-plan.html">Site Plan</a> • Contact • Terms</p>
   </footer>
+
 </body>
 </html>
