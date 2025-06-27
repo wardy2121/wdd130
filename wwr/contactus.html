@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Contact Us</title>
+  <link rel="stylesheet" href="styles.css" />
+  <style>
+    form {
+      margin: 2em auto;
+      padding: 1em;
+      max-width: 500px;
+      border: 1px solid #ccc;
+      border-radius: 1em;
+      background-color: #f9f9f9;
+    }
+    label {
+      display: block;
+      margin-top: 1em;
+    }
+    input, textarea, button {
+      width: 100%;
+      padding: 0.5em;
+      margin-top: 0.5em;
+      border: 1px solid #999;
+      border-radius: 0.3em;
+    }
+    button {
+      background-color: #005f73;
+      color: white;
+      border: none;
+      cursor: pointer;
+    }
+    button:hover {
+      background-color: #0a9396;
+    }
+    #feedback {
+      background-color: antiquewhite;
+      position: absolute;
+      top: 0;
+      left: 0;
+      right: 0;
+      padding: .5em;
+      display: none;
+      text-align: center;
+      font-weight: bold;
+    }
+    .moveDown {
+      margin-top: 3em;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>White Water Rafting Co.</h1>
+    <nav>
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a href="trips.html">Trips</a></li>
+        <li><a href="contactus.html" class="active">Contact Us</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <div id="feedback"></div>
+
+    <form>
+      <h2>Contact Us</h2>
+      <label for="user_name">Name:</label>
+      <input type="text" id="user_name" name="user_name" required>
+
+      <label for="user_email">Email:</label>
+      <input type="email" id="user_email" name="user_email" required>
+
+      <label for="user_message">Message:</label>
+      <textarea id="user_message" name="user_message" rows="5" required></textarea>
+
+      <button type="submit">Send Message</button>
+    </form>
+  </main>
+
+  <footer>
+    <p>&copy; 2025 White Water Rafting Co. | All rights reserved</p>
+  </footer>
+
+  <script>
+    const feedbackElement = document.getElementById('feedback');
+    const formElement = document.forms[0];
+
+    formElement.addEventListener('submit', function(e) {
+      e.preventDefault();
+      feedbackElement.innerHTML = 'Hello ' + formElement.user_name.value + '! Thank you for your message. We will get back with you as soon as possible!';
+      feedbackElement.style.display = "block";
+      document.body.classList.toggle('moveDown');
+    });
+  </script>
+</body>
+</html>
